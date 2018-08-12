@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700');
+
+@font-face {
+    font-family: 'aleoregular';
+    src: url('aleo-regular-webfont.woff2') format('woff2'),
+         url('aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+}
+
+body {
+	width: 1770px;
+}
+
+.header {
+	background: url("image/header.jpg") no-repeat;
+	width: 1770px;
+	height: 820px;
+	padding-top: 266px;
+	&__title {
+		font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 9px;
+	}
+	&__subtitle {
+		font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 45px;
+	}
+	&__form {
+		margin-left: 558px;
+		width: 500px;
+		height: 60px;
+		&::-webkit-input-placeholder {
+			font-family: "Josefin Sans", sans-serif;
+            color: #999999;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 26px;
+            text-align: center;
+		}
+		&:focus::-webkit-input-placeholder {
+        opacity: 0; 
+        transition: opacity 0.3s ease;
+        }
+	}
+	&__btn {
+		background: url("image/headbtn.png") no-repeat;
+		width: 150px;
+		height: 60px;
+		position: absolute;
+		font-family: Aleo;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+	}
+	&__scroll {
+		font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 119px;
+	}
+	&__item {
+		background-color: #5474fd;
+        width: 1770px;
+        height: 80px;
+        padding-left: 330px;
+        padding-top: 28px;
+	}
+	&__logo {
+		font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+	}
+	&__nav {
+		margin-left: 425px;
+		margin-top: -25px;
+	}
+	&__nav-list {
+		display: inline-block;
+		padding-right: 42px;
+	}
+	&__link {
+		font-family: Aleo;
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26px;
+	}
+}
+
+.header-scroll {
+	margin-left: 876px;
+	&:hover {
+		transform: scale(2, 2);
+	}
+}
+
+.choose {
+	background: url("image/choose.jpg") no-repeat;
+	width: 1770px;
+	height: 685px;
+	padding-left: 331px;
+	padding-top: 205px;
+	&__cont {
+		float: left;
+		margin-right: 104px;
+	}
+	&__title {
+		font-family: Aleo;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 36px;
+	}
+	&__dscr {
+		font-family: "Josefin Sans", sans-serif;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 516px;
+        padding-bottom: 35px;
+	}
+	&__dscr--2 {
+		font-family: "Josefin Sans", sans-serif;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 516px;
+        padding-bottom: 48px;
+	}
+	&__btn {
+		background-color: #5474fd;
+        width: 225px;
+        height: 60px;
+        font-family: Aleo;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        &:hover {
+		transform: scale(1.1, 1.1);
+	    }
+	}
+	&__cont--pic {
+		margin-top: -85px;
+	}
+	&__pic--2 {
+		display: block;
+		padding-left: 122px;
+	}
+}
+
+.works {
+	background: url("image/works.jpg") no-repeat;
+	width: 1770px;
+	height: 337px;
+	display: flex;
+	padding-left: 397px;
+	padding-top: 77px;
+	&__search {
+		padding-right: 174px;
+	}
+	&__select {
+		padding-right: 174px;
+	}
+	&__caption {
+		font-family: Aleo;
+        color: #e8e8e8;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+        margin-left: -60px;
+	}
+	&__select-svg {
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+	&__search-svg {
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+	&__book-svg {
+		&:hover {
+			transform: scale(1.1, 1.1);
+		}
+	}
+}
+
+.section {
+	background: url("image/section.jpg") no-repeat;
+	width: 1770px;
+	height: 700px;
+	padding-top: 229px;
+	padding-left: 331px;
+	&__item {
+		background-color: rgba(35, 35, 35, 0.9);
+        width: 540px;
+        height: 371px;
+        padding-left: 27px;
+        padding-top: 50px;
+	}
+	&__title {
+		font-family: "Josefin Sans", sans-serif;
+        color: #e8e8e8;
+        font-size: 20px;/* Приближение из-за подстановки шрифтов */
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 25px;
+	}
+	&__subtitle {
+		font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 25px;
+	}
+	&__dscr {
+		font-family: "Josefin Sans", sans-serif;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 45px;
+        width: 478px;
+	}
+	&__btn {
+		background-color: #5474fd;
+        width: 225px;
+        height: 60px;
+        font-family: Aleo;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        &:hover {
+        	transform: scale(1.1, 1.1) translateX(15px);
+        }
+	}
+}
+
+.section--2 {
+	background: url("image/section2.jpg") no-repeat;
+	width: 1770px;
+	height: 700px;
+	padding-top: 229px;
+	padding-left: 901px;
+}
+
+.testimonial {
+	background: url("image/test.jpg") no-repeat;
+	width: 1770px;
+	height: 731px;
+	padding-top: 121px;
+	padding-left: 331px;
+	&__title {
+		font-family: Aleo;
+        color: #ffffff;
+        font-size: 36px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 93px;
+	}
+	&__pic {
+		float: left;
+	}
+	&__item {
+		background-color: #333333;
+        width: 665px;
+        height: 284px;
+        margin-left: 445px;
+        padding-top: 51px;
+        padding-left: 30px;
+	}
+	&__caption {
+		font-family: "Josefin Sans", sans-serif;
+        color: #fefefe;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26px;
+        padding-bottom: 29px;
+	}
+	&__dscr {
+		font-family: "Josefin Sans", sans-serif;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        width: 626px;
+	}
+	&__span {
+		margin-left: 15px;
+	}
+}
+
+.fa-quote-left {
+ 	font-family: FontAwesome;
+    color: #5474fd;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.footer {
+	background-color: #232323;
+    width: 1770px;
+    height: 268px;
+    padding-top: 120px;
+    &__logo {
+    	font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+    &__slogan {
+    	font-family: "Josefin Sans", sans-serif;
+        color: #ffffff;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+        padding-bottom: 28px;
+    }
+    &__cont {
+    	font-family: FontAwesome;
+        color: #e8e8e8;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+    }
+}
+
+.fa-facebook {
+	margin-right: 20px;
+	&:hover {
+	color: #5474fd;
+	transform: scale(1.5, 1.5);
+	}
+}
+
+.fa-twitter {
+	margin-right: 20px;
+	&:hover {
+	color: #5474fd;
+	transform: scale(1.5, 1.5);
+	}
+}
+.fa-linkedin {
+	margin-right: 20px;
+	&:hover {
+	color: #5474fd;
+	transform: scale(1.5, 1.5);
+	}
+}
+.fa-youtube-play {
+	margin-right: 20px;
+	&:hover {
+	color: #5474fd;
+	transform: scale(1.5, 1.5);
+	}
+}
+.fa-pinterest {
+	&:hover {
+	color: #5474fd;
+	transform: scale(1.5, 1.5);
+	}
+}
